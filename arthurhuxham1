@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar-items">
+            <li><a href="https://google-advance-search-page.arthurhuxham92.repl.co/">Advanced</a></li>
+            <li><a href="https://Google-Image-Search-Page.arthurhuxham92.repl.co">Images</a></li>
+            <li><a href="https://1st-Homework.arthurhuxham92.repl.co">Google</a></li> 
+        </ul>
+    </div>
+
+
+
+ <div class="container">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
+        
+        <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <div class="form-group">
+                
+                <input type="text" name="as_q">
+                
+                <div class="clarification">
+                     <span class="monospace"></span>
+                </div>
+  </div>
+            <input type="submit" value="Google Search">
+            
+            <input type="submit" name="btnI" value="I'm feeling lucky">
+            
+
+        </form>
+
+    </div>
+    
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
+ CSS CODE FOR GOOGLE HOMEPAGE
+ * {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-items a {
+	float: right;
+}
+
+.navbar-items a {
+	display: block;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 13px;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 150px;
+}
+
+.logo {
+	grid-area: logo;
+    justify-self: center;
+    align-self: end;
+  
+}
+
+.container {
+  display: container;
+	text-align: center;
+  height: 30px;
+    width: 50%;
+    margin: 0 auto;
+     
+}
+            
+            
+    
+
+    
+</body>
+
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML CODE FOR GOOGLE IMAGE PAGE
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar-items">
+            <li><a 
+            <li><a href="https://1st-Homework.arthurhuxham92.repl.co">Google</a></li> 
+        </ul>
+    </div>
+
+
+<div class="container">
+        <img src="https://sites.google.com/site/thisisjustatest2294/_/rsrc/1468742544208/project-resources/image-search/google-image-search/Screen%20Shot%202015-11-28%20at%201.14.27%20PM.png" class="logo">
+            
+            
+    <form action="https://www.google.com/search" method="get">
+            <div class="search-field">
+                <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+                <input type="text" name="q">
+            </div>
+            <input type="hidden" name="tbm" value="isch" />
+        </form>
+    </div>
+
+    
+</body>
+
+</html>
+____________________________________________________________________________________________________________________________________________________________________________________________________
+CSS CODE FOR GOOGLE IMAGE PAGE
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.navbar-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-items a {
+	float: right;
+}
+
+.navbar-items a {
+	display: block;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 13px;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 150px;
+}
+
+
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+  display: block;
+	text-align: center;
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ADVANCE GOOGLE SEARCH HTML CODE
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h3> Advanced Search</h3>
+    <div class="navbar">
+        <ul class="navbar-items">
+            
+            <a href="https://1st-Homework.arthurhuxham92.repl.co">Google</a>
+        </ul>
+    </div>
+
+
+<div class="container">
+        
+        <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <div class="form-group">
+                <label>All these words:</label>
+                <input type="text" name="as_q">
+                <div class="clarification">
+                     <span class="monospace"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>This exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <div class="clarification">
+                    <span class="monospace"></span>
+</div>
+            </div>
+            <div class="form-group">
+                <label>Any of these words: </label>
+                <input type="text" name="as_oq">
+                <div class="clarification">
+                     <span class="monospace"></span>
+</div>
+            </div>
+            <div class="form-group">
+                <label>None of these words:</label>
+                <input type="text" name="as_eq">
+                <div class="clarification">
+                    <span class="monospace"></span>
+</div>
+<div class="form-group"> 
+                
+                    <input type="submit" class="blue-button" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS CODE FOR GOOGLE ADVANCE SEARCH PAGE
+
+* {
+	box-sizing: border-box;
+}
+h3 {
+  color: rgba(241, 80, 80, 0.8);
+  text-align: center;
+   padding: 14px 70px;
+   font-family: arial,sans-serif
+   
+}
+
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.navbar-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-items a {
+	float: right;
+}
+
+.navbar-items a {
+	display: block;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 13px;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 150px;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 13px 0;
+  
+}
+input:focus {
+  outline: none;
+}
+input[type=text] {
+  color: #464646;
+  margin: 0 0 0 5px;
+}
+input[type=submit] {
+  font-size: 14px;
+  width: 185px;
+  /* Remove border */
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+input[type=submit]:hover {
+  
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: center;
+  padding: 10px 2px;
+  margin: -100px -80px;
+}
+
+.body, .input, input.blue-button. {
+  display: flex;
+  align-items: center;
+}
+
+.header a, .header-links a, .header-advanced-logo a, .header-advanced a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.header-advanced {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+.header-advanced-logo {
+  padding: 10px;
+}
+.header-advanced-logo img {
+  height: 30px;
+}
+.header-links {
+  margin-left: auto;
+}
+
+.appbar {
+  margin: 30px 10px;
+}
+
+
+.separator-line {
+  border-bottom: solid 10px #d6d6d6;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  /* Align the search container in the center of the viewport */
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.search-container .search-field {
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 1px solid #afafaf;
+  align-items: center;
+  margin: 10px;
+  padding-left: 15px;
+}
+.search-container .search-field input {
+  border: none;
+  border-radius: 25px;
+}
+.search-container .logo-subtext {
+  color: #4285f4;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
+
+.advanced-search-container {
+  margin: -50px 10px;
+}
+.advanced-search-container label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+.advanced-search-container .whitespace {
+  display: inline-block;
+  width: 50%;
+}
+.advanced-search-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.advanced-search-container .form-group label {
+  width: 16%;
+  font-size: 14px;
+}
+.advanced-search-container .form-group input[type=text] {
+  width: 49%;
+  padding: 2px 0;
+}
+.advanced-search-container .form-group .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.advanced-search-container .form-group .clarification .monospace {
+  font-family: monospace;
+}
+.advanced-search-container .form-group .right-align {
+  width: 50%;
+}
+
+--------------------------------------------------------------------------------
+END
