@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar-items">
+            <li><a href="https://google-advance-search-page.arthurhuxham92.repl.co/">Advanced</a></li>
+            <li><a href="https://Google-Image-Search-Page.arthurhuxham92.repl.co">Images</a></li>
+            <li><a href="https://1st-Homework.arthurhuxham92.repl.co">Google</a></li> 
+        </ul>
+    </div>
+
+
+
+ <div class="container">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
+        
+        <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <div class="form-group">
+                
+                <input type="text" name="as_q">
+                
+                <div class="clarification">
+                     <span class="monospace"></span>
+                </div>
+  </div>
+            <input type="submit" value="Google Search">
+            
+            <input type="submit" name="btnI" value="I'm feeling lucky">
+            
+
+        </form>
+
+    </div>
+            
+            
+    
+
+    
+</body>
+
+</html>
